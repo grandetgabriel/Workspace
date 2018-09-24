@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Crédit bancaire</title>
+</head>
+<body>Test
+</body>
+</html>
