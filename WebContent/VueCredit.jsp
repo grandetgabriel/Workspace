@@ -1,3 +1,7 @@
+<%@page import="web.CreditModel"%>
+<%
+	CreditModel model = (CreditModel) request.getAttribute("creditModel");
+%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -27,6 +31,10 @@
 			</table>
 			<button type="submit">Calculer</button>
 		</form>
+	</div>
+	<p></p>
+	<div>
+		Mensualite =<%=model.getMensualite()%>
 	</div>
 </body>
 </html>
